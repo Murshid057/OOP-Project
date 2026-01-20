@@ -1,6 +1,4 @@
-
-import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.*;
 
 abstract class Ticket{
     int ticket_id;
@@ -140,8 +138,7 @@ class TicketManager{
         }
     }
 }
-public class Meal_ManagementSystem{
-
+public class TrainTicketManagement {
     
     public static void main(String[] args) {
         

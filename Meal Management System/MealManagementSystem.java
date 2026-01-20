@@ -1,4 +1,3 @@
-
 import java.util.*;
 
 interface Meal{
@@ -123,7 +122,7 @@ class MealManager{
         return sum;
     }
 }
-public class Train_Ticket_System {
+public class MealManagementSystem {
 
     public static void main(String[] args) {
        
