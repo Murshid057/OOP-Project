@@ -67,7 +67,7 @@ class DiscountMeal implements Meal{
     
     @Override
     public double calculateCost(){
-        double price = (base_price-base_price)*discountPercentage;
+        double price = (base_price-base_price*discountPercentage);
         return price;
     }
     
